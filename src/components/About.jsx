@@ -37,8 +37,8 @@ const About = () => {
 
                     <div className="mt-8">
                         <a
-                            href="Kasun_Bandara_CV.pdf"
-                            download="Kasun_Bandara_CV.pdf"
+                            href="/Kasun-Bandara-CV.pdf"
+                            download="Kasun-Bandara-CV.pdf"
                             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-full hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
