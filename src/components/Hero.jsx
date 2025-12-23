@@ -44,7 +44,7 @@ const Hero = () => {
           variants={item}
           className="mt-6 text-6xl md:text-8xl font-extrabold text-white tracking-tighter"
         >
-          I'M KASUNI{' '}
+          I'M KASUN{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-b from-slate-200 to-slate-500">
             BANDARA
           </span>
