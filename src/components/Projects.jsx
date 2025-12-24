@@ -13,6 +13,15 @@ const projects = [
     demo: "https://kb-shoe.web.app/"
   },
   {
+    title: "MUI Dashboard",
+    category: "React Admin Dashboard (Material UI + REST API)",
+    image: "https://i.postimg.cc/y8XQJ8VX/mui.jpg",
+    description: "A responsive React dashboard built with Material UI that displays real-time data from a REST API. Features include reusable stat cards, a paginated users table, loading and error handling, and a clean, professional UI suitable for admin interfaces and analytics panels. Demonstrates modern frontend architecture, component-driven design, and responsive layouts.",
+    tags: ["React", "Material UI(MUI)", "Axios/REST API"],
+    github: "https://github.com/Kasun09/mui-dashboard",
+    demo: "#"
+  },
+  {
     title: "Mobile App",
     category: "Mobile App Development",
     image: "https://i.postimg.cc/9f2T2Yh0/mobile.jpg",
