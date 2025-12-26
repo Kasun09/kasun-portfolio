@@ -10,7 +10,7 @@ const projects = [
     description: "Built with: HTML5 • Tailwind CSS • JavaScript (ES6) • Firebase Hosting • Lucide Icons.",
     tags: ["HTML5", "Tailwind CSS", "JavaScript (ES6)", "Firebase Hosting", "Lucide Icons"],
     github: "https://github.com/Kasun09/ShoeShop",
-    demo: "https://kb-shoe.web.app/"
+    demo: "https://e-shoe-shop-7p6x.vercel.app/"
   },
   {
     title: "MUI Dashboard",
