@@ -19,10 +19,8 @@ const About = () => {
                 </div>
                 <div>
                     <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
-                    <p className="text-slate-400 leading-relaxed mb-4">
-                        I’m a passionate Software Engineering undergraduate at the National Institute of Business
-                        Management, aspiring to become a skilled software engineer. I love building innovative
-                        projects that combine creativity and technology.
+                    <p className="text-slate-300 leading-loose mb-6 text-justify text-lg">
+                        I am a passionate Software Engineering undergraduate at the National Institute of Business Management, aspiring to become a skilled software engineer. I enjoy creating clean, responsive, and user-friendly web applications, turning ideas into functional digital experiences through thoughtful design and well-structured code. I love building innovative projects that combine creativity and technology.
                     </p>
                     <div className="flex gap-4">
                         <div className="bg-slate-800/50 p-4 rounded-lg border border-white/5">
