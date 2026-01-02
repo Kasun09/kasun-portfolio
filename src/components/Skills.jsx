@@ -11,19 +11,19 @@ const skillCategories = [
     {
         category: "Frontend Frameworks",
         icon: Palette,
-        skills: ["React", "HTML & CSS", "Tailwind CSS"],
+        skills: ["React", "Quasar", "HTML & CSS", "Tailwind CSS"],
         color: "text-purple-400"
     },
     {
         category: "Database",
         icon: Database,
-        skills: ["SQL", "Firebase Realtime DB"],
+        skills: ["SQL", "Firebase Realtime DB", "Supabase", "MongoDB"],
         color: "text-green-400"
     },
     {
         category: "Others",
         icon: Cpu,
-        skills: ["git", "postman", "Photoshop", "IoT Platforms", "Arduino", "ESP32"],
+        skills: ["git", "postman", "Figma", "Photoshop", "IoT Platforms", "Arduino", "ESP32"],
         color: "text-orange-400"
     },
 ];
