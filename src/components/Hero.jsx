@@ -55,9 +55,10 @@ const Hero = () => {
           variants={item}
           className="mt-6 text-lg md:text-xl text-slate-400 max-w-xl mx-auto leading-relaxed"
         >
-          Software Engineering Undergraduate | Exploring{' '}
-          <span className="text-white">UI/UX</span> and{' '}
-          <span className="text-white">AI, ML</span>.
+          Software Engineering Undergraduate | Frontend Developer | Aspiring Full-Stack Developer and{' '}
+          <span className="text-white">UI/UX</span>.{' '}
+          {/* <span className="text-white">AI, ML</span>.*/}
+
         </motion.p>
 
         {/* Buttons */}
