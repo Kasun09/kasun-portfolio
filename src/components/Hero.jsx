@@ -103,7 +103,7 @@ const Hero = () => {
           variants={item}
           className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white tracking-tight"
         >
-          KASUN{' '}
+          I'M KASUN{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
             BANDARA
           </span>
@@ -114,7 +114,7 @@ const Hero = () => {
           variants={item}
           className="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed"
         >
-          Software Engineering Undergraduate crafting <span className="text-white font-medium">high-performance</span> web experiences & <span className="text-white font-medium">innovative</span> solutions.
+          Software Engineering Undergraduate | Frontend Developer | Aspiring Full-Stack Developer <span className="text-white font-medium">UI/UX </span>  & <span className="text-white font-medium">AI, ML.</span>
         </motion.p>
 
         {/* Buttons */}
