@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 const Education = () => {
     const items = [
         { year: "2023 - Present", degree: "BSc (Hons) in Computing", school: "National Institute of Business Management" },
+        { year: "2022 - 2023", degree: "Diploma in Information Technology(DiTEC)", school: "Esoft Metro Campus, Kandy" },
         { year: "2019 - 2022", degree: "G.C.E Advanced Level(Physical science stream)", school: "St.Sylvesters college, Kandy" },
     ];
 

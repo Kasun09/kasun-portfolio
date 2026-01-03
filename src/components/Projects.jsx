@@ -6,9 +6,9 @@ const projects = [
   {
     title: "KB-Shoes | Premium E-Commerce Storefront",
     category: "Frontend Development",
-    image: "https://i.postimg.cc/yYQw6Rfh/image.png", // Replace with your project screenshot
-    description: "Built with: HTML5 • Tailwind CSS • JavaScript (ES6) • Firebase Hosting • Lucide Icons.",
-    tags: ["HTML5", "Tailwind CSS", "JavaScript (ES6)", "Firebase Hosting", "Lucide Icons"],
+    image: "https://i.postimg.cc/mgPGfFrQ/new-shoe.jpg", // Replace with your project screenshot
+    description: "Built with: HTML5 • Tailwind CSS • JavaScript • Vercel • Lucide Icons.",
+    tags: ["HTML5", "Tailwind CSS", "JavaScript", "Vercel", "Lucide Icons"],
     github: "https://github.com/Kasun09/ShoeShop",
     demo: "https://e-shoe-shop-7p6x.vercel.app/"
   },
