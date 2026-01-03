@@ -114,7 +114,8 @@ const Hero = () => {
           variants={item}
           className="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed"
         >
-          Software Engineering Undergraduate | Frontend Developer | Aspiring Full-Stack Developer <span className="text-white font-medium">UI/UX </span>  & <span className="text-white font-medium">AI, ML.</span>
+          Software Engineering Undergraduate | Frontend Developer | Aspiring Full-Stack Developer |
+          <span className="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed"> UI/UX </span>  | <span className="text-white font-medium"> AI & ML.</span>
         </motion.p>
 
         {/* Buttons */}
