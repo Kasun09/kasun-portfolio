@@ -6,7 +6,7 @@ const projects = [
   {
     title: "ShopHub | Premium Product Listing Web App",
     category: "Frontend Development",
-    image: "https://i.postimg.cc/G2tFN3N7/image.png", // මේකට අලුත් project එකේ screenshot එකක් දාන්න
+    image: "https://i.postimg.cc/fRd41Xp1/901shots-so.webp", // මේකට අලුත් project එකේ screenshot එකක් දාන්න
     description: "A high-performance product discovery platform featuring real-time search debouncing, dynamic filtering, and smooth Framer Motion animations. Built with React 19 and Context API for seamless state management.",
     tags: ["React 19", "Tailwind CSS", "Framer Motion", "Context API", "Lucide Icons", "Vercel"],
     github: "https://github.com/Kasun09/Product-Listing-Web-App",
@@ -15,7 +15,7 @@ const projects = [
   {
     title: "KB-Shoes | Luxury Footwear Storefront",
     category: "Frontend Development",
-    image: "https://i.postimg.cc/mgPGfFrQ/new-shoe.jpg",
+    image: "https://i.postimg.cc/jjJzHqW1/319shots-so.webp",
     description: "A sleek, responsive e-commerce storefront designed for premium brands. Focused on high-fidelity UI/UX, featuring custom hover interactions, organized product grids, and a mobile-first approach using utility-first styling.",
     tags: ["HTML5", "Tailwind CSS", "JavaScript", "Mobile-First Design", "Lucide Icons"],
     github: "https://github.com/Kasun09/ShoeShop",
