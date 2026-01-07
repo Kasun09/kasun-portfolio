@@ -34,7 +34,7 @@ const projects = [
   {
     title: "Mobile App",
     category: "Mobile App Development",
-    image: "https://i.postimg.cc/9f2T2Yh0/mobile.jpg",
+    image: "https://i.postimg.cc/ryS2hSXX/442shots-so.webp ",
     description: "Kotlin + Firebase for realtime tank & device control.",
     tags: ["Kotlin", "Firebase"],
     github: "https://github.com/Anjana 4444/Fish-farm-project",
