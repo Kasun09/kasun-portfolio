@@ -4,14 +4,24 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "KB-Shoes | Premium E-Commerce Storefront",
+    title: "ShopHub | Premium Product Listing Web App",
     category: "Frontend Development",
-    image: "https://i.postimg.cc/mgPGfFrQ/new-shoe.jpg", // Replace with your project screenshot
-    description: "Built with: HTML5 • Tailwind CSS • JavaScript • Vercel • Lucide Icons.",
-    tags: ["HTML5", "Tailwind CSS", "JavaScript", "Vercel", "Lucide Icons"],
+    image: "https://i.postimg.cc/G2tFN3N7/image.png", // මේකට අලුත් project එකේ screenshot එකක් දාන්න
+    description: "A high-performance product discovery platform featuring real-time search debouncing, dynamic filtering, and smooth Framer Motion animations. Built with React 19 and Context API for seamless state management.",
+    tags: ["React 19", "Tailwind CSS", "Framer Motion", "Context API", "Lucide Icons", "Vercel"],
+    github: "https://github.com/Kasun09/Product-Listing-Web-App",
+    demo: "https://product-listing-web-app-ten.vercel.app/"
+  },
+  {
+    title: "KB-Shoes | Luxury Footwear Storefront",
+    category: "Frontend Development",
+    image: "https://i.postimg.cc/mgPGfFrQ/new-shoe.jpg",
+    description: "A sleek, responsive e-commerce storefront designed for premium brands. Focused on high-fidelity UI/UX, featuring custom hover interactions, organized product grids, and a mobile-first approach using utility-first styling.",
+    tags: ["HTML5", "Tailwind CSS", "JavaScript", "Mobile-First Design", "Lucide Icons"],
     github: "https://github.com/Kasun09/ShoeShop",
     demo: "https://e-shoe-shop-7p6x.vercel.app/"
   },
+
   {
     title: "MUI Dashboard",
     category: "React Admin Dashboard (Material UI + REST API)",
