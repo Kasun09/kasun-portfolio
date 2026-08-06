@@ -6,7 +6,7 @@ const projects = [
   {
     title: "ShopHub | Premium Product Listing Web App",
     category: "Frontend Development",
-    image: "https://i.postimg.cc/fRd41Xp1/901shots-so.webp", // මේකට අලුත් project එකේ screenshot එකක් දාන්න
+    image: "https://i.postimg.cc/fRd41Xp1/901shots-so.webp", 
     description: "A high-performance product discovery platform featuring real-time search debouncing, dynamic filtering, and smooth Framer Motion animations. Built with React 19 and Context API for seamless state management.",
     tags: ["React 19", "Tailwind CSS", "Framer Motion", "Context API", "Lucide Icons", "Vercel"],
     github: "https://github.com/Kasun09/Product-Listing-Web-App",
