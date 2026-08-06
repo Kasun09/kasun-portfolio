@@ -19,17 +19,17 @@ const About = () => {
                 </div>
                 <div>
                     <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
-                    <p className="text-slate-300 leading-loose mb-6 text-justify text-lg">
-                        I am a passionate Software Engineering undergraduate at the National Institute of Business Management, aspiring to become a skilled software engineer. I enjoy creating clean, responsive, and user-friendly web applications, turning ideas into functional digital experiences through thoughtful design and well-structured code. I love building innovative projects that combine creativity and technology.
+                    <p className="text-slate-300 leading-relaxed mb-6 text-justify text-lg">
+                        I am a results-driven Full-Stack Software Engineer with hands-on industry experience in designing, building, and deploying modern web applications and robust API integrations. Specializing in the React and .NET ecosystems, I bridge the gap between high-fidelity frontends and secure, scalable backends. During my industry tenure, I have successfully delivered multi-tenant portals, automated third-party integrations (such as Xero), and background worker workflows, demonstrating a track record of driving system efficiency through clean, maintainable code.
                     </p>
                     <div className="flex gap-4">
-                        <div className="bg-slate-800/50 p-4 rounded-lg border border-white/5">
-                            <h3 className="text-blue-400 font-bold text-xl">Undergraduate</h3>
-                            <p className="text-xs text-slate-500">--</p>
+                        <div className="bg-slate-900/50 p-4 rounded-xl border border-white/10 flex-1">
+                            <h3 className="text-blue-400 font-bold text-xl">Internship</h3>
+                            <p className="text-xs text-slate-500 mt-1">6 Months Full-Stack Experience</p>
                         </div>
-                        <div className="bg-slate-800/50 p-4 rounded-lg border border-white/5">
-                            <h3 className="text-purple-400 font-bold text-xl">6+</h3>
-                            <p className="text-xs text-slate-500">Projects</p>
+                        <div className="bg-slate-900/50 p-4 rounded-xl border border-white/10 flex-1">
+                            <h3 className="text-purple-400 font-bold text-xl">6+ Major</h3>
+                            <p className="text-xs text-slate-500 mt-1">Projects Completed</p>
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@ const About = () => {
                         <a
                             href="/Kasun-Bandara-CV.pdf"
                             download="Kasun-Bandara-CV.pdf"
-                            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-full hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg"
+                            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-full hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg shadow-blue-500/10 cursor-pointer"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

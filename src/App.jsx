@@ -3,10 +3,11 @@ import Navbar from './components/Navbar';
 import Background from './components/Background';
 import Hero from './components/Hero';
 import About from './components/About';
+import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Contact from './components/Contact'; // Create a simple contact form later
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -17,15 +18,21 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Experience />
         <Education />
 
-
         <section id="projects" className="py-24 max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">My Projects</h2>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Projects</span>
+            </h2>
+            <p className="text-slate-400 text-lg max-w-2xl mx-auto">
+              A curated selection of my professional integrations, mobile applications, and full-stack solutions.
+            </p>
+          </div>
           <Projects />
         </section>
 
-        {/* Create a simple Contact.jsx next */}
         <Skills />
         <Contact />
       </main>

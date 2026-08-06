@@ -1,33 +1,83 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { GraduationCap, Calendar, BookOpen } from 'lucide-react';
 
 const Education = () => {
     const items = [
-        { year: "2023 - Present", degree: "BSc (Hons) in Computing", school: "National Institute of Business Management" },
-        { year: "2022 - 2023", degree: "Diploma in Information Technology(DiTEC)", school: "Esoft Metro Campus, Kandy" },
-        { year: "2019 - 2022", degree: "G.C.E Advanced Level(Physical science stream)", school: "St.Sylvesters college, Kandy" },
+        { 
+            year: "2023 - Present", 
+            degree: "BSc (Hons) in Computing", 
+            school: "National Institute of Business Management" 
+        },
+        { 
+            year: "2022 - 2023", 
+            degree: "Diploma in Information Technology (DiTEC)", 
+            school: "Esoft Metro Campus, Kandy" 
+        },
+        { 
+            year: "2019 - 2022", 
+            degree: "G.C.E Advanced Level (Physical Science Stream)", 
+            school: "St. Sylvester's College, Kandy" 
+        },
     ];
 
     return (
-        <section id="education" className="py-24 max-w-3xl mx-auto px-6">
-            <h2 className="text-4xl font-bold text-white mb-12 text-center">Education</h2>
-            <div className="space-y-8">
-                {items.map((item, i) => (
-                    <motion.div
-                        key={i}
-                        initial={{ opacity: 0, x: i % 2 === 0 ? -20 : 20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        className="relative pl-8 border-l-2 border-blue-500/30"
-                    >
-                        <div className="absolute w-4 h-4 bg-blue-500 rounded-full -left-[9px] top-1 shadow-[0_0_10px_#3b82f6]" />
-                        <span className="text-blue-400 text-sm font-mono">{item.year}</span>
-                        <h3 className="text-xl font-bold text-white">{item.degree}</h3>
-                        <p className="text-slate-400">{item.school}</p>
-                    </motion.div>
-                ))}
+        <section id="education" className="py-24 relative overflow-hidden">
+            <div className="max-w-5xl mx-auto px-6">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6 }}
+                    className="text-center mb-16"
+                >
+                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                        Academic <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Background</span>
+                    </h2>
+                    <p className="text-slate-400 text-lg max-w-2xl mx-auto">
+                        Academic foundation and certifications that shaped my engineering mindset.
+                    </p>
+                </motion.div>
+
+                <div className="relative border-l-2 border-slate-800 max-w-4xl mx-auto pl-6 md:pl-10 space-y-12">
+                    {items.map((item, index) => (
+                        <motion.div
+                            key={index}
+                            initial={{ opacity: 0, x: 30 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.7, delay: index * 0.2 }}
+                            className="relative group"
+                        >
+                            {/* Glowing Timeline Connector Pin */}
+                            <div className="absolute -left-[31px] md:-left-[47px] top-1.5 p-1 bg-slate-950 border-2 border-blue-500 rounded-full shadow-[0_0_15px_rgba(59,130,246,0.5)] group-hover:scale-110 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.8)] transition-all duration-300">
+                                <GraduationCap className="w-4 h-4 text-blue-400" />
+                            </div>
+
+                            {/* Main Card */}
+                            <div className="glow-card p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-white/5 group-hover:border-blue-500/20 transition-all duration-300">
+                                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                                    <div>
+                                        <h3 className="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">
+                                            {item.degree}
+                                        </h3>
+                                        <p className="text-base font-semibold text-slate-300 mt-1 flex items-center gap-2">
+                                            <BookOpen className="w-4 h-4 text-slate-500" />
+                                            <span>{item.school}</span>
+                                        </p>
+                                    </div>
+                                    <div className="flex items-center gap-2 text-sm text-blue-400 font-medium font-mono shrink-0">
+                                        <Calendar className="w-4 h-4" />
+                                        <span>{item.year}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </motion.div>
+                    ))}
+                </div>
             </div>
         </section>
     );
 };
+
 export default Education;
