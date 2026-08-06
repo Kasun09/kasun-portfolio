@@ -23,7 +23,7 @@ const Experience = () => {
         <section id="experience" className="py-24 relative overflow-hidden">
             {/* Background Light Glow */}
             <div className="absolute inset-0 pointer-events-none opacity-[0.03]">
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[350px] bg-blue-500 rounded-full blur-[120px]" />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[350px] bg-sky-500 rounded-full blur-[120px]" />
             </div>
 
             <div className="max-w-5xl mx-auto px-6">
@@ -35,7 +35,7 @@ const Experience = () => {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                        Professional <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Experience</span>
+                        Professional <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-cyan-400">Experience</span>
                     </h2>
                     <p className="text-slate-400 text-lg max-w-2xl mx-auto">
                         Developing enterprise-grade web platforms and custom integrations in fast-paced software environments.
@@ -53,16 +53,16 @@ const Experience = () => {
                             className="relative group"
                         >
                             {/* Glowing Timeline Connector Pin */}
-                            <div className="absolute -left-[31px] md:-left-[47px] top-1.5 p-1 bg-slate-950 border-2 border-blue-500 rounded-full shadow-[0_0_15px_rgba(59,130,246,0.5)] group-hover:scale-110 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.8)] transition-all duration-300">
-                                <Briefcase className="w-4 h-4 text-blue-400" />
+                            <div className="absolute -left-[31px] md:-left-[47px] top-1.5 p-1 bg-slate-950 border-2 border-sky-500 rounded-full shadow-[0_0_14px_rgba(14,165,233,0.5)] group-hover:scale-110 group-hover:shadow-[0_0_22px_rgba(14,165,233,0.75)] transition-all duration-300">
+                                <Briefcase className="w-4 h-4 text-sky-400" />
                             </div>
 
                             {/* Main Card */}
-                            <div className="glow-card p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-white/5 group-hover:border-blue-500/20 transition-all duration-300">
+                            <div className="glow-card p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-white/5 group-hover:border-sky-500/25 transition-all duration-300">
                                 {/* Header Details */}
                                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-6">
                                     <div>
-                                        <h3 className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">
+                                        <h3 className="text-2xl font-bold text-white group-hover:text-sky-400 transition-colors duration-300">
                                             {exp.role}
                                         </h3>
                                         <p className="text-lg font-semibold text-slate-300 mt-1">
@@ -85,7 +85,7 @@ const Experience = () => {
                                 <ul className="space-y-3.5 mb-6 text-slate-300">
                                     {exp.impacts.map((point, idx) => (
                                         <li key={idx} className="flex items-start gap-3 text-base leading-relaxed text-justify">
-                                            <CheckCircle2 className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
+                                            <CheckCircle2 className="w-5 h-5 text-sky-500 shrink-0 mt-0.5" />
                                             <span>{point}</span>
                                         </li>
                                     ))}
@@ -96,7 +96,7 @@ const Experience = () => {
                                     {exp.techStack.map((tech) => (
                                         <span
                                             key={tech}
-                                            className="px-3 py-1 rounded-md text-xs font-semibold bg-slate-950/80 text-slate-400 border border-white/5 hover:border-blue-500/20 hover:text-blue-400 transition-colors duration-200"
+                                            className="px-3 py-1 rounded-md text-xs font-semibold bg-slate-950/80 text-slate-400 border border-white/5 hover:border-sky-500/25 hover:text-sky-400 transition-colors duration-200"
                                         >
                                             {tech}
                                         </span>

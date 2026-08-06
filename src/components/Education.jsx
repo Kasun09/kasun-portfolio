@@ -32,7 +32,7 @@ const Education = () => {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                        Academic <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Background</span>
+                        Academic <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-cyan-400">Background</span>
                     </h2>
                     <p className="text-slate-400 text-lg max-w-2xl mx-auto">
                         Academic foundation and certifications that shaped my engineering mindset.
@@ -50,15 +50,15 @@ const Education = () => {
                             className="relative group"
                         >
                             {/* Glowing Timeline Connector Pin */}
-                            <div className="absolute -left-[31px] md:-left-[47px] top-1.5 p-1 bg-slate-950 border-2 border-blue-500 rounded-full shadow-[0_0_15px_rgba(59,130,246,0.5)] group-hover:scale-110 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.8)] transition-all duration-300">
-                                <GraduationCap className="w-4 h-4 text-blue-400" />
+                            <div className="absolute -left-[31px] md:-left-[47px] top-1.5 p-1 bg-slate-950 border-2 border-sky-500 rounded-full shadow-[0_0_14px_rgba(14,165,233,0.5)] group-hover:scale-110 group-hover:shadow-[0_0_22px_rgba(14,165,233,0.75)] transition-all duration-300">
+                                <GraduationCap className="w-4 h-4 text-sky-400" />
                             </div>
 
                             {/* Main Card */}
-                            <div className="glow-card p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-white/5 group-hover:border-blue-500/20 transition-all duration-300">
+                            <div className="glow-card p-6 md:p-8 rounded-2xl bg-slate-900/40 border border-white/5 group-hover:border-sky-500/25 transition-all duration-300">
                                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                     <div>
-                                        <h3 className="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">
+                                        <h3 className="text-xl font-bold text-white group-hover:text-sky-400 transition-colors duration-300">
                                             {item.degree}
                                         </h3>
                                         <p className="text-base font-semibold text-slate-300 mt-1 flex items-center gap-2">
@@ -66,7 +66,7 @@ const Education = () => {
                                             <span>{item.school}</span>
                                         </p>
                                     </div>
-                                    <div className="flex items-center gap-2 text-sm text-blue-400 font-medium font-mono shrink-0">
+                                    <div className="flex items-center gap-2 text-sm text-sky-400 font-medium font-mono shrink-0">
                                         <Calendar className="w-4 h-4" />
                                         <span>{item.year}</span>
                                     </div>

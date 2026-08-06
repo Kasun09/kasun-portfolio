@@ -24,7 +24,7 @@ function App() {
         <section id="projects" className="py-24 max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Projects</span>
+              Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-cyan-400">Projects</span>
             </h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
               A curated selection of my professional integrations, mobile applications, and full-stack solutions.

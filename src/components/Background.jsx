@@ -77,7 +77,7 @@ const Background = () => {
       {/* 5. Interactive Glowing Orbs */}
       <motion.div
         style={{ x: smoothX, y: smoothY, translateX: '-50%', translateY: '-50%' }}
-        className="absolute top-0 left-0 h-[400px] w-[400px] rounded-full bg-blue-500/10 blur-[100px] pointer-events-none"
+        className="absolute top-0 left-0 h-[400px] w-[400px] rounded-full bg-sky-500/[0.07] blur-[100px] pointer-events-none"
       />
 
       <motion.div
@@ -87,7 +87,7 @@ const Background = () => {
         }}
         transition={{ duration: 10, repeat: Infinity }}
         style={{ rotateX, rotateY }}
-        className="absolute -top-[10%] -left-[10%] h-[600px] w-[600px] rounded-full bg-purple-900/20 blur-[120px]"
+        className="absolute -top-[10%] -left-[10%] h-[600px] w-[600px] rounded-full bg-sky-900/15 blur-[120px]"
       />
 
       <motion.div
@@ -96,7 +96,7 @@ const Background = () => {
           opacity: [0.2, 0.4, 0.2]
         }}
         transition={{ duration: 15, repeat: Infinity }}
-        className="absolute -bottom-[20%] -right-[10%] h-[700px] w-[700px] rounded-full bg-indigo-900/20 blur-[120px]"
+        className="absolute -bottom-[20%] -right-[10%] h-[700px] w-[700px] rounded-full bg-cyan-900/15 blur-[120px]"
       />
 
       {/* 6. Vignette for Focus */}

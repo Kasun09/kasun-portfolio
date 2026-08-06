@@ -36,18 +36,18 @@ const Hero = () => {
       {/* Background Gradient Blobs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
-          className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-purple-500/20 rounded-full blur-[100px]"
+          className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-sky-500/15 rounded-full blur-[120px]"
           animate={{
             scale: [1, 1.2, 1],
-            opacity: [0.3, 0.5, 0.3]
+            opacity: [0.2, 0.4, 0.2]
           }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
         />
         <motion.div
-          className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-blue-500/20 rounded-full blur-[100px]"
+          className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-cyan-500/15 rounded-full blur-[120px]"
           animate={{
             scale: [1, 1.2, 1],
-            opacity: [0.3, 0.5, 0.3]
+            opacity: [0.2, 0.4, 0.2]
           }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
         />
@@ -92,13 +92,15 @@ const Hero = () => {
         {/* Status Badge */}
         <motion.div
           variants={item}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/60 border border-slate-800 text-slate-400 text-sm mb-8 backdrop-blur-md mx-auto w-fit shadow-lg shadow-black/20"
+          className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08] text-slate-400 text-xs font-medium mb-10 backdrop-blur-sm mx-auto w-fit tracking-wide"
         >
-          <span className="relative flex h-2.5 w-2.5">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+          <span className="relative flex h-2 w-2">
+            <span className="animate-pulse absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-80"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
           </span>
-          <span>Ready for Roles | Kandy / Colombo, Sri Lanka</span>
+          <span className="text-slate-400">Open to Work</span>
+          <span className="w-px h-3 bg-white/10"></span>
+          <span className="text-slate-500">Sri Lanka</span>
         </motion.div>
 
         {/* Name */}
@@ -107,7 +109,7 @@ const Hero = () => {
           className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white tracking-tight"
         >
           KASUN{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 via-cyan-400 to-sky-500">
             BANDARA
           </span>
         </motion.h1>
@@ -117,7 +119,7 @@ const Hero = () => {
           variants={item}
           className="mt-4 text-xl md:text-2xl lg:text-3xl font-bold text-slate-200 tracking-wide max-w-4xl mx-auto"
         >
-          Full-Stack Software Engineer <span className="text-blue-500">|</span> React, .NET 8, C# & Cloud Solutions
+          Full-Stack Software Engineer <span className="text-sky-400">|</span> React, .NET 8, C# & Cloud Solutions
         </motion.h2>
 
         {/* Subtitle */}
@@ -136,7 +138,7 @@ const Hero = () => {
           {['React', '.NET 8 / C#', 'SQL Server', 'Tailwind CSS', 'REST APIs', 'OAuth 2.0'].map((tech) => (
             <span
               key={tech}
-              className="px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-blue-500/10 text-blue-400 border border-blue-500/20 shadow-[0_0_15px_rgba(59,130,246,0.1)] hover:bg-blue-500/20 hover:border-blue-500/30 transition-all duration-300"
+              className="px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase bg-sky-500/[0.08] text-sky-400 border border-sky-500/20 hover:bg-sky-500/15 hover:border-sky-400/35 hover:text-sky-300 transition-all duration-300"
             >
               {tech}
             </span>
@@ -149,11 +151,11 @@ const Hero = () => {
           className="mt-12 flex gap-4 justify-center flex-wrap"
         >
           <motion.a
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
+            whileHover={{ scale: 1.03, y: -2 }}
+            whileTap={{ scale: 0.97 }}
             href="/Kasun-Bandara-CV.pdf"
             download="Kasun-Bandara-CV.pdf"
-            className="px-8 py-3.5 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 text-white font-semibold rounded-full shadow-[0_0_25px_rgba(79,70,229,0.35)] hover:shadow-[0_0_35px_rgba(79,70,229,0.55)] transition-all flex items-center gap-2 cursor-pointer"
+            className="px-8 py-3.5 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold rounded-full shadow-[0_0_28px_rgba(14,165,233,0.30)] hover:shadow-[0_0_38px_rgba(14,165,233,0.50)] transition-all duration-300 flex items-center gap-2 cursor-pointer"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -162,27 +164,27 @@ const Hero = () => {
           </motion.a>
 
           <motion.button
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
+            whileHover={{ scale: 1.03, y: -2 }}
+            whileTap={{ scale: 0.97 }}
             onClick={() =>
               document
                 .getElementById('experience')
                 .scrollIntoView({ behavior: 'smooth' })
             }
-            className="px-8 py-3.5 border border-slate-700 bg-slate-900/40 text-slate-300 font-semibold rounded-full hover:bg-slate-800/80 hover:text-white transition-colors cursor-pointer"
+            className="px-8 py-3.5 border border-sky-500/30 bg-sky-500/[0.06] text-sky-400 font-semibold rounded-full hover:bg-sky-500/15 hover:border-sky-400/50 hover:text-sky-300 transition-all duration-300 cursor-pointer"
           >
             View Experience
           </motion.button>
 
           <motion.button
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
+            whileHover={{ scale: 1.03, y: -2 }}
+            whileTap={{ scale: 0.97 }}
             onClick={() =>
               document
                 .getElementById('contact')
                 .scrollIntoView({ behavior: 'smooth' })
             }
-            className="px-8 py-3.5 border border-slate-700 bg-slate-900/40 text-slate-300 font-semibold rounded-full hover:bg-slate-800/80 hover:text-white transition-colors cursor-pointer"
+            className="px-8 py-3.5 border border-slate-700/60 bg-slate-900/30 text-slate-400 font-semibold rounded-full hover:bg-slate-800/60 hover:text-slate-200 hover:border-slate-600 transition-all duration-300 cursor-pointer"
           >
             Get in Touch
           </motion.button>

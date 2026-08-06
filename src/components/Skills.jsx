@@ -52,7 +52,7 @@ const Skills = () => {
                         className="text-center mb-16"
                     >
                         <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                            Technical <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent">Skills</span>
+                            Technical <span className="bg-gradient-to-r from-sky-300 via-cyan-400 to-sky-500 bg-clip-text text-transparent">Skills</span>
                         </h2>
                         <p className="text-slate-400 text-lg max-w-2xl mx-auto">
                             A comprehensive stack tailored for building secure, high-performance web applications and robust data pipelines.
@@ -85,7 +85,7 @@ const Skills = () => {
                                                         key={skill}
                                                         className="text-slate-300 flex items-center gap-3 text-sm font-medium"
                                                     >
-                                                        <div className="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.6)]"></div>
+                                                        <div className="w-1.5 h-1.5 rounded-full bg-sky-500 shadow-[0_0_8px_rgba(14,165,233,0.6)]"></div>
                                                         <span>{skill}</span>
                                                     </li>
                                                 ))}
