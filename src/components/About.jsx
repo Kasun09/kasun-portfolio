@@ -20,7 +20,7 @@ const About = () => {
                 <div>
                     <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
                     <p className="text-slate-300 leading-relaxed mb-6 text-justify text-lg">
-                        I am a results-driven Full-Stack Software Engineer with hands-on industry experience in designing, building, and deploying modern web applications and robust API integrations. Specializing in the React and .NET ecosystems, I bridge the gap between high-fidelity frontends and secure, scalable backends. During my industry tenure, I have successfully delivered multi-tenant portals, automated third-party integrations (such as Xero), and background worker workflows, demonstrating a track record of driving system efficiency through clean, maintainable code.
+                        I am a results driven Full-Stack Software Engineer with hands on industry experience in designing, building, and deploying modern web applications and robust API integrations. Specializing in the React and .NET ecosystems, I bridge the gap between high fidelity frontends and secure, scalable backends. During my industry tenure, I have successfully delivered multi tenant portals, automated third-party integrations (such as Xero), and background worker workflows, demonstrating a track record of driving system efficiency through clean, maintainable code.
                     </p>
                     <div className="flex gap-4">
                         <div className="bg-slate-900/50 p-4 rounded-xl border border-white/10 flex-1">
