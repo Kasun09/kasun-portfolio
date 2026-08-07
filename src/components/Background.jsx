@@ -1,5 +1,14 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
+
+const STATIC_PARTICLES = Array.from({ length: 30 }).map((_, i) => ({
+  id: i,
+  size: Math.random() * 2 + 1,
+  x: Math.random() * 100,
+  y: Math.random() * 100,
+  duration: Math.random() * 15 + 10,
+  delay: Math.random() * -20, // Negative delay starts them mid-animation
+}));
 
 const Background = () => {
   // 1. Mouse Tracking for Interactivity
@@ -20,16 +29,7 @@ const Background = () => {
     mouseY.set(e.clientY);
   };
 
-  const particles = useMemo(() => {
-    return Array.from({ length: 30 }).map((_, i) => ({
-      id: i,
-      size: Math.random() * 2 + 1,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      duration: Math.random() * 15 + 10,
-      delay: Math.random() * -20, // Negative delay starts them mid-animation
-    }));
-  }, []);
+  const particles = STATIC_PARTICLES;
 
   return (
     <div
@@ -38,7 +38,7 @@ const Background = () => {
     >
       {/* 2. Noise Texture Overlay (The "Premium" Look) */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none brightness-100 contrast-150"
-        style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3Structure filter='url(%23noiseFilter)'/%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E")` }}>
+        style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E")` }}>
       </div>
 
       {/* 3. The Grid Layer */}
@@ -77,7 +77,7 @@ const Background = () => {
       {/* 5. Interactive Glowing Orbs */}
       <motion.div
         style={{ x: smoothX, y: smoothY, translateX: '-50%', translateY: '-50%' }}
-        className="absolute top-0 left-0 h-[400px] w-[400px] rounded-full bg-blue-500/10 blur-[100px] pointer-events-none"
+        className="absolute top-0 left-0 h-[400px] w-[400px] rounded-full bg-sky-500/[0.07] blur-[100px] pointer-events-none"
       />
 
       <motion.div
@@ -87,7 +87,7 @@ const Background = () => {
         }}
         transition={{ duration: 10, repeat: Infinity }}
         style={{ rotateX, rotateY }}
-        className="absolute -top-[10%] -left-[10%] h-[600px] w-[600px] rounded-full bg-purple-900/20 blur-[120px]"
+        className="absolute -top-[10%] -left-[10%] h-[600px] w-[600px] rounded-full bg-sky-900/15 blur-[120px]"
       />
 
       <motion.div
@@ -96,7 +96,7 @@ const Background = () => {
           opacity: [0.2, 0.4, 0.2]
         }}
         transition={{ duration: 15, repeat: Infinity }}
-        className="absolute -bottom-[20%] -right-[10%] h-[700px] w-[700px] rounded-full bg-indigo-900/20 blur-[120px]"
+        className="absolute -bottom-[20%] -right-[10%] h-[700px] w-[700px] rounded-full bg-cyan-900/15 blur-[120px]"
       />
 
       {/* 6. Vignette for Focus */}
