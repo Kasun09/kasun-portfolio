@@ -9,8 +9,8 @@ const projects = [
     image: "/projects/fintelli.png",
     description: "Developed a full-stack Xero integration platform to sync financial data, execute background worker tasks, and provide an interactive multi-tenant client portal UI.",
     tags: [".NET 8", "C#", "React", "SQL Server", "OAuth 2.0", "Tailwind CSS"],
-    github: "https://github.com/Kasun09/InvoiceManagementAPI",
-    demo: "#"
+    github: "https://github.com/Kasun09/",
+    demo: "https://www.fintelli.tech/"
   },
   {
     title: "Fish Tank Monitoring System – Mobile App",
@@ -18,7 +18,7 @@ const projects = [
     image: "/projects/fishtank.png",
     description: "IoT-based real-time aquarium monitoring mobile application integrated with hardware sensors for live temperature, water level, and pH tracking.",
     tags: ["Kotlin", "Jetpack Compose", "Firebase", "ESP32 IoT", "Arduino"],
-    github: "https://github.com/Kasun09",
+    github: "https://github.com/Anjana4444/Fish-farm-project",
     demo: "#"
   },
   {
@@ -45,8 +45,8 @@ const projects = [
     image: "/projects/productivity.png",
     description: "React-based task and schedule management dashboard with persistent LocalStorage, date filtering, and smooth dark-mode UI animations.",
     tags: ["React", "Framer Motion", "LocalStorage API", "Tailwind CSS"],
-    github: "https://github.com/Kasun09",
-    demo: "#"
+    github: "https://github.com/Kasun09/Product-Listing-Web-App",
+    demo: "https://product-listing-web-app-ten.vercel.app/"
   },
   {
     title: "Personal Portfolio Website",
@@ -54,8 +54,8 @@ const projects = [
     image: "/projects/portfolio.png",
     description: "Fully responsive developer portfolio built with modular React components, smooth scroll animations, and performance optimizations.",
     tags: ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
-    github: "https://github.com/Kasun09",
-    demo: "https://github.com/Kasun09"
+    github: "https://github.com/Kasun09/kasun-portfolio",
+    demo: "https://kasun-portfolio-roan.vercel.app/"
   }
 ];
 
