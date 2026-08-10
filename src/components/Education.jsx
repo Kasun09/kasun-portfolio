@@ -4,20 +4,20 @@ import { GraduationCap, Calendar, BookOpen } from 'lucide-react';
 
 const Education = () => {
     const items = [
-        { 
-            year: "2023 - Present", 
-            degree: "BSc (Hons) in Computing", 
-            school: "National Institute of Business Management" 
+        {
+            year: "2023 - Present",
+            degree: "BSc (Hons) in Computing",
+            school: "National Institute of Business Management"
         },
-        { 
-            year: "2022 - 2023", 
-            degree: "Diploma in Information Technology (DiTEC)", 
-            school: "Esoft Metro Campus, Kandy" 
+        {
+            year: "2022 - 2023",
+            degree: "Diploma in Information Technology (DiTEC)",
+            school: "Esoft Metro Campus, Kandy"
         },
-        { 
-            year: "2019 - 2022", 
-            degree: "G.C.E Advanced Level (Physical Science Stream)", 
-            school: "St. Sylvester's College, Kandy" 
+        {
+            year: "2019 - 2022",
+            degree: "G.C.E Advanced Level (Physical Science Stream)",
+            school: "St. Sylvester's College, Kandy"
         },
     ];
 
